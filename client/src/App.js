@@ -1,19 +1,38 @@
 import './assets/tailwind.css'
-import Logo from './assets/images/logo512.png'
-import { SearchIcon } from '@heroicons/react/solid'
+import Header from './Header';
+import AuthModal from './AuthModal';
 
 function App() {
   return (
     <div>
-      <header className='flex w-full bg-dark p-2'>
-        <div className="mx-4">
-        <img src={Logo} alt="" className='w-8 h-8 '/>
+      <Header></Header>
+      <AuthModal></AuthModal>
+      <div className='mx-6 relative'>
+        <div>
+          <aside className='relative block'>
+            <section className="inline-block pt-5 pb-10">
+              <div className="title">
+                <a href="" className='text-blue-400'>
+                  Today's Best
+                </a>
+              </div>
+            </section>
+            <section className="inline-block pt-5 pb-10">
+              <div className="title">
+                <a href="" className='text-blue-400'>
+                  NBA
+                  <span className='text-black'> Popular Posts</span>
+                </a>
+              </div>
+            </section>
+          </aside>
         </div>
-        <form action="" className='bg-dark-brighter px-3 flex rounded-md border border-gray-600 '>
-          <SearchIcon className="text-gray-300 h-6 w-6 mt-1"/>
-          <input type="text" className='bg-dark-brighter text-sm p-1 pl-2 pr-0 block focus:outline-none text-white' placeholder='Search'/>
-        </form>
-      </header>
+        <div>
+          <div>
+            <h1 className='text-black-200 text-4xl' text->NBA</h1>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

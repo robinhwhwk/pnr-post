@@ -7913,6 +7913,11 @@ react-app-polyfill@^3.0.0:
     regenerator-runtime "^0.13.9"
     whatwg-fetch "^3.6.2"
 
+react-clickout-handler@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-clickout-handler/-/react-clickout-handler-1.2.1.tgz#f2bc3f5a7b01d50e2875702a026c5c517e54027b"
+  integrity sha512-A7sK2M4LW7S+Bq3wdPZoDfrQK9wARS2/lGH1i7R5e5DP+e84d1LIRPPkVe+AsiiYP6AH8eiaFfczbiiF3wx3MQ==
+
 react-dev-utils@^12.0.1:
   version "12.0.1"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-12.0.1.tgz#ba92edb4a1f379bd46ccd6bcd4e7bc398df33e73"
